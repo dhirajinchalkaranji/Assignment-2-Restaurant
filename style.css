@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body{
+  background: url(./assets/bgc.png);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.container{
+  background: rgba(3, 32, 60, 0.5);
+  height: 120vh;
+}
+
+section{
+  padding-top: 45px;
+  margin-left:45px ;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 40px;
+  color: #ffc233;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+
+.button-small{
+  width: 150px;
+  height: 50px;
+  background-color: #E83A59;
+  border: none;
+  color: #fff;
+  margin-right: 50px;
+  font-size: 1.5rem;
+}
+
+/* ------------------------------ */
+
+
+
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-heading{
+  margin-top: 20px;
+  font-size: 7rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffc233;
+}
+
+.button-large{
+  width: 300px;
+  height: 60px;
+  background-color: #E83A59;
+  border: none;
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+.bottom img{
+  position: absolute;
+  right: 5rem;
+  height: 8.5rem;
+  cursor: pointer;
+}
+
+/* ------------------------------ */
